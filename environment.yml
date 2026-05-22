@@ -1,0 +1,23 @@
+
+name: xai_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - imbalanced-learn
+      - matplotlib
+      - seaborn
+      - plotly
+      - joblib
+      - shap
+      - lime
+      - dalex
+      - jupyterlab
+      - ipywidgets
+ 

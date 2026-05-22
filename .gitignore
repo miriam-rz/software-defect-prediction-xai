@@ -1,0 +1,24 @@
+
+# Generated datasets
+datasets/processed/
+ 
+# Generated results
+results/
+ 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+ 
+# Trained models
+*.joblib
+ 
+# macOS
+.DS_Store
+ 
+# Jupyter
+.virtual_documents/
+ 
+# Conda
+*.egg-info/
